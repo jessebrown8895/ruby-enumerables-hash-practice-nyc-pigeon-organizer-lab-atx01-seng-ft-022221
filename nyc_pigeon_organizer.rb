@@ -1,3 +1,11 @@
+require 'pry' 
 def nyc_pigeon_organizer(data)
-  # write your code here!
-end
+  data.each_with_object({}) do |key, value|
+    value.each do |inner_key, names|
+      names.each do |names 
+      binding.pry
+    end 
+    binding.pry 
+  end 
+end 
+
