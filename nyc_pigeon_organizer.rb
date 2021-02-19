@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     key.each do |inner_key, names|
       names.each do |names|
         final_array[names] = []
-        
+        binding.pry
     end 
       binding.pry
     end 
