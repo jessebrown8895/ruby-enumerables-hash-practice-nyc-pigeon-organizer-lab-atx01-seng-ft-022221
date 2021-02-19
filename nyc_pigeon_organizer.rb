@@ -4,8 +4,8 @@ def nyc_pigeon_organizer(data)
     key.each do |inner_key, names|
       binding.pry
       names.each do |names|
-        binding.pry
-        if 
+        final_array[names] = []
+        
     end 
       binding.pry
     end 
